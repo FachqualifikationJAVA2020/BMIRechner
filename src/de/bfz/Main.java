@@ -15,6 +15,9 @@ public class Main {
         System.out.print("Bitte Körpergewicht in Kilorgramm (gerundet) eingeben: ");
         int numG = sc.nextInt();
 
+        // Scanner schließen
+        sc.close();
+
         // Ergebnis Variablen
         double bmi = 0;
         double summeK = 0;
